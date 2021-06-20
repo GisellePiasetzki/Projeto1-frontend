@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+header {
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    background-color: #936639; 
+    border: 2px solid #582F0E;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    justify-content: center;
+}
+.imagemprincipal {
+    width: 100%;
+    padding: 40px;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li { 
+    display: inline-block;
+    padding: 20px;
+}
+a {
+    color: #C2C5AA;
+    text-decoration: none;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 18px;
+}
+main{
+    width: 100%;
+    position: relative;
+    top: 0;
+}
+h1{
+    font-family: 'Libre Baskerville', sans-serif;
+    text-transform: uppercase;
+    color: #582F0E;
+    text-align: center;
+}
+h2{
+    font-family: 'Rochester', sans-serif;
+    color: #936639;
+    text-align: center;
+}
+
+
+.paragrafos{
+    position: relative;
+    width: 100%;
+    display: inline-block;
+    border-radius: 100px;
+    text-align: center;
+   
+}
+p {
+    display: block;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #936639;
+    font-family: 'Rochester', sans-serif;
+    font-size: 20px;
+    color: #A4AC86;
+    border: 2px solid #582F0E;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.titulo {
+    position: relative;
+    top: 0;
+}
+
+.paragrafos{
+    width: 100%;
+    position: relative;
+    align-items: center;
+    top: 0;
+    right: 20px;
+    left: 20px;
+}
+img.icone{
+    width: 60px;
+    position: fixed;
+    z-index: 4;
+    right: 0;
+    bottom: 10px;
+
+}
